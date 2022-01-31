@@ -1,0 +1,12 @@
+@use 'base';
+
+$default_measure: 14px;
+
+.main {
+  background-color: base.$primary_color;
+  padding: $default_measure;
+
+  ul {
+    background-color: base.$secondary_color;
+  }
+}
